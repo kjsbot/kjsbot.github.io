@@ -1,10 +1,8 @@
 {
   "homepage": "https://kjsbot.github.io",
-  "name": "react-portfolio-template",
+  "name": "2022-portfolio",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -43,12 +41,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
