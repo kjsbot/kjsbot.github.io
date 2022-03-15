@@ -1,6 +1,6 @@
 {
   "homepage": "https://kjsbot.github.io",
-  "name": "2022-portfolio",
+  "name": "fiona-portfolio",
   "private": true,
   "version": "0.1.0",
   "dependencies": {
@@ -14,13 +14,11 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
-    "gh-pages": "^3.2.3",
     "node-sass": "^4.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.3.1",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1"
   },
@@ -45,5 +43,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
