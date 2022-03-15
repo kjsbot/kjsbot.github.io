@@ -1,5 +1,6 @@
 .card {
   width: 100%;
+  border-radius: 8px;
   height: 250px;
   overflow: hidden !important;
   display: flex;
@@ -18,18 +19,18 @@
     transform: translate(0, 20px);
     cursor: pointer;
     h1 {
-      font-size: 14px;
-      color: white;
+      font-size: 25px;
+      color: #E7E7E7;
     }
     p {
-      font-size: 10px;
-      color: white;
+      font-size: 18px;
+      color: #E7E7E7;
       margin-bottom: 20px;
     }
 
     .btn {
       background-color: black;
-      color: white;
+      color: #E7E7E7;
       padding: 10px;
       text-decoration: none;
     }
@@ -37,5 +38,9 @@
       opacity: 1;
       transform: translate(0, 0px);
     }
+  }
+
+  .content:hover {
+    background-image: linear-gradient(rgba(189, 189, 189, 0.054), rgba(66, 66, 66, 0.596), rgba(189, 189, 189, 0.054));
   }
 }

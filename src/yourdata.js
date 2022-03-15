@@ -6,6 +6,14 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+// Project pictures
+import trimPic from "./images/trimcipe.png"
+import battlePic from "./images/battleship.png"
+import chessPic from "./images/c-pp-hess.png"
+import bookPic from "./images/booknook.png"
+import temp from "./images/temp.jpg"
+import github from "./images/github.jpg"
+
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -17,85 +25,91 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Fiona",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "CS student,",
     //Line 2 For Header
-    "products, brands,",
+    "developer,",
     //Line 3 For Header
-    "and experience",
+    "problem solver",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Currently: working on fullstack projects, biking, learning Go, reading sci-fi books, and taking better care of my plants🌱",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "wang.fiona03@gmail.com",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "YouDemy", //Project Title - Add Your Project Title Here
+      stack: "REACT, NODE.JS, APOLLO, GRAPHQL, POSTGRESQL, YOUTUBE API",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Currently working on an online learning platform that allows users to import Youtube playlists/videos and view them as virtual courses.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        temp,  
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/YouDemy/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "BookNook", //Project Title - Add Your Project Title Here
+      stack: "REACT, NODE.JS, EXPRESS, MONGODB, GOOGLE BOOKS API",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A fullstack webapp that allows you to keep track of all your books and reading progress. Inspired by Goodreads!", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        bookPic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/BookNook/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Trimcipe", //Project Title - Add Your Project Title Here
+      stack: "DJANGO, JAVASCRIPT, BOOTSTRAP SQLITE",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A Django web application that trims down a user submitted recipe and displays just the directions, ingredients, and relevant details. Removes the need to scroll past life stories and ads.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        trimPic,  
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/trimcipe/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Chess", //Project Title - Add Your Project Title Here
+      stack: "C++",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Two player and single player chess game against a chess bot with various levels of diffculty - implemented with a minimax algorithm and alpha-beta pruning.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      chessPic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/c-pp-hess/",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Battleship", //Project Title - Add Your Project Title Here
+      stack: "JAVA, JAVAFX",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Battleship game made with object oriented programming principles complete with a GUI.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        battlePic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/Battleship/",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "More Projects", //Project Title - Add Your Project Title Here
+      stack: "??",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Check out my Github (kjsbot) for more of my projects!", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      github,  
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://github.com/kjsbot/",
     },
 
     /*
@@ -113,13 +127,14 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Hi, I'm Fiona! I'm currently sudying computer science at the University of Waterloo.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Over the summer, I worked as fullstack developer at the Royal Bank of Canada where I worked with Angular, TypeScript, and SQL to create an internal platform with my team. I'm always looking for new opportunities to apply my learning and to grow as a software engineer!",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Incoming software developer intern @ The Weather Network (Backend & Infra)",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  "./assets/instagram.svg", 
+  //"https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
   //   End About Section ---------------------
 

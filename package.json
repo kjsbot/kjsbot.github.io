@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kjsbot.github.io",
   "name": "react-portfolio-template",
   "private": true,
   "description": "Portfolio Template For Awesome Peoples",
@@ -20,6 +21,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1"
   },

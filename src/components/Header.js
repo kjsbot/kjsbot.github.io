@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              check out my resume!
             </a>
           </Fade>
         </div>

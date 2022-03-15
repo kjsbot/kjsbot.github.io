@@ -1,6 +1,7 @@
 import React from "react"
+import { BiCodeAlt } from "react-icons/bi";
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, stack, paragraph, imgUrl, projectLink }) => {
   return (
     <div
       className="card"
@@ -13,14 +14,14 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
     >
       <div className="content">
         <h1 className="header">{heading}</h1>
+        <h3 className="stack">{stack}</h3>
         <p className="text">{paragraph}</p>
         <a
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
         >
-          Explore
+          <BiCodeAlt size="2.0em" />
         </a>
       </div>
     </div>

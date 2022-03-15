@@ -11,12 +11,12 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            Portfolio.
+            FW.
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
-            <button onClick={() => scrollTo("#about")}>About</button>
-            <button onClick={() => scrollTo("#contact")}>Contact</button>
+            <button onClick={() => scrollTo("#about")}>about.</button>
+            <button onClick={() => scrollTo("#work")}>projects.</button>
+            <button onClick={() => scrollTo("#contact")}>contact.</button>
           </div>
         </div>
       </div>
@@ -25,3 +25,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// <button onClick={() => scrollTo("#contact")}>contact.</button>
+//<button onClick={() => scrollTo("#work")}>experience.</button>
